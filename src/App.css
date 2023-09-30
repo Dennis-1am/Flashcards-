@@ -1,0 +1,19 @@
+#root {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.nextBtn {
+  margin-top: 1rem;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .15s;
+}
