@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='' title='Video Walkthrough' width='' alt='(https://gifyu.com/image/S63Th)' />
+https://gifyu.com/image/S63Th
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
