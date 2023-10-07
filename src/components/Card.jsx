@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import PropTypes from 'prop-types';
 import './Card.css';
 
 const Card = (props) => {
-    const [flip, setFlip] = useState(false);
+    const [flip, setFlip] = useState(true);
 
     const flipCard = () => {
         setFlip(!flip);
-        console.log(flip);
+        console.log(flip)
     }
 
     return (
@@ -25,7 +25,7 @@ const Card = (props) => {
 Card.propTypes = {
     question: PropTypes.string.isRequired,
     answer: PropTypes.string.isRequired,
-    id: PropTypes.string.isRequired
+    id: PropTypes.string.isRequired,
 };
 
 export default Card;

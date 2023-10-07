@@ -5,8 +5,9 @@
   text-align: center;
 }
 
-.nextBtn {
-  margin-top: 1rem;
+.button {
+  margin-right: 10px;
+  margin-top: 2rem;
   padding: 0.75rem 1.25rem;
   border: none;
   border-radius: 5px;
@@ -15,5 +16,38 @@
   font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
+  transition: .15s;
+}
+
+.submit-answerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .button {
+    margin: 30px 0;
+  }
+
+  .button:first-child {
+    margin-right: 10px;
+  }
+
+  .button:last-child {
+    margin-left: 10px;
+  }
+
+  .button:hover {
+    background-color: #fff;
+    color: #000;
+  }
+}
+
+.submit-answerContainer input {
+  width: 100%;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 700;
   transition: .15s;
 }
